@@ -3,11 +3,11 @@ defmodule Guard do
         IO.puts "{x} is a number"
     end
 
-    def this_is x when is_list do
+    def this_is x when is_list x do
         IO.puts "{x} is a list"
     end
 
-    def this_is x when is_atom do
+    def this_is x when is_atom x do
         IO.puts "{x} is an atom"
     end
 end
