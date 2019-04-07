@@ -14,4 +14,4 @@ end
 
 Guard.this_is(4545)                 # => 4545 is a number
 Guard.this_is([114514, 1919, 810])  # => [114514, 1919, 810] is a list
-Guard.this_is(:nyan)               # => :nyan is an atom
+Guard.this_is(:nyan)                # => :nyan is an atom
